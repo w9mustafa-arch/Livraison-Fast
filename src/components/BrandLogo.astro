@@ -1,29 +1,18 @@
-<svg
-  {...Astro.props}
-  viewBox="0 0 500 120"
-  xmlns="http://www.w3.org/2000/svg"
->
-  <!-- Livraison -->
-  <text
-    x="0"
-    y="80"
-    class="fill-current text-neutral-700 dark:text-neutral-300"
-    font-size="72"
-    font-weight="700"
-    font-family="Inter, Arial, sans-serif"
+<div class="flex items-center gap-3">
+  <!-- أيقونة PNG -->
+  <img
+    src="/icon.png"
+    alt="Livraison Plus icon"
+    class="h-10 w-10 object-contain"
+  />
+
+  <!-- النص -->
+  <span
+    class="text-3xl font-bold text-neutral-700 dark:text-neutral-300"
   >
     Livraison
-  </text>
-
-  <!-- Plus -->
-  <text
-    x="300"
-    y="80"
-    class="fill-current text-yellow-500 dark:text-yellow-400"
-    font-size="72"
-    font-weight="700"
-    font-family="Inter, Arial, sans-serif"
-  >
-    Plus
-  </text>
-</svg>
+    <span class="text-yellow-500 dark:text-yellow-400">
+      Plus
+    </span>
+  </span>
+</div>
